@@ -113,10 +113,12 @@ document.addEventListener('DOMContentLoaded', function() {
     getCannyEdgeVideo();
 });
 
-// Thiết lập kích thước của canvas dựa trên kích thước video khi nó đã được tải
+// Thiết lập kích thước của canvas dựa trên kích thước video 
 window.onload = function() {
     var video = document.getElementById('myVideo');
     var canvas = document.getElementById('myCanvas');
     canvas.width = video.clientWidth;
     canvas.height = video.clientHeight;
 };
+
+
