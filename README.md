@@ -1,5 +1,5 @@
 
-# Event recognition in photo collections
+
 
 This project provides JavaScript functions to convert color images to grayscale and perform Canny edge detection on video frames. Utilizing the HTML5 Canvas API, this application enables real-time video processing directly in the browser, displaying the edge detection results instantly.
 
